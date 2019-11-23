@@ -1,27 +1,26 @@
 
 
-function fizzbuzz(Fizz,Buzz){
-var x =  Fizz.length + Buzz.length;
+function fizzbuzz(Fiz,Buz){
+var x =  Fiz.length + Buz.length;
 if(x%3==0){
-console.log('Fizz array of ',Fizz);
+ return 'Fizz'
 }
 if(x%5==0){
-console.log('Buzz array of',Buzz);
+ return 'Buzz'
 }
 if(x%5==0&&x%3==0){ 
-console.log('Fizzbuzz array with a combination',Fizz, Buzz);
+return 'FizzBuzz'
 }
 }
-
 var a= [ 's', 'a', 'r','a','h' ]; 
 var b= [ 'n', 'a', 'k','y', 'e', 'm', 'b','e','S','N'];
-var c=['s', 'e', 'r','a','h'];
-var d=['s', 'e', 'r','a'];
+var c=['s', 'e', 'r','a'];
 
-console.log('RETURNS FIZZ =>');
-fizzbuzz(a,d);
-console.log('RETURNS BUZZ =>');
-fizzbuzz(a,c);
-console.log('RETURNS FIZZBUZZ =>');
-fizzbuzz(a,b);
+console.log(fizzbuzz(a,b));
+console.log(fizzbuzz(a,a));
+console.log(fizzbuzz(a,c));
+
+
+
+
 
