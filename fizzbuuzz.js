@@ -1,15 +1,14 @@
 
-
 function fizzbuzz(Fiz,Buz){
 var x =  Fiz.length + Buz.length;
+if(x%5==0&&x%3==0){ 
+return 'FizzBuzz'
+}
 if(x%3==0){
  return 'Fizz'
 }
 if(x%5==0){
  return 'Buzz'
-}
-if(x%5==0&&x%3==0){ 
-return 'FizzBuzz'
 }
 }
 var a= [ 's', 'a', 'r','a','h' ]; 
