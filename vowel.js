@@ -23,7 +23,7 @@ function countVowels(paragraph){
     characterCounter[paragraph.charAt(i)] =characterCounter[paragraph.charAt(i)] +1  
     }
     }
-      console.log(characterCounter)
+     // console.log(characterCounter)
     var newVowel= Array.from(vowelSet).join('')
     var myArray= [newVowel,counter]
     console.log(myArray)
