@@ -3,8 +3,8 @@ function countVowels(paragraph){
     var counter = 0;
     var characterCounter={}
     
-    var vowelSet= new Set()
-    var vowels=['a','e','i','o','u'] 
+    var vowelSet = new Set()
+    var vowels = ['a','e','i','o','u'] 
     
     for(var i=0;i<=paragraph.length;i++){
     if(vowels.includes(paragraph.charAt(i))){
@@ -18,7 +18,7 @@ function countVowels(paragraph){
     else{ 
  	if(characterCounter[(paragraph.charAt(i))] == 1){
   
- counter =counter+ 1
+ counter = counter+ 1
      }
     characterCounter[paragraph.charAt(i)] =characterCounter[paragraph.charAt(i)] +1  
     }
